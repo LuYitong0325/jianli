@@ -1,0 +1,538 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+@r:75rem;
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.pubBg(){
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.webp) no-repeat center center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  position: relative;
+}
+.pubBgThin(){
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 24%;
+  background: url(../img/bgThin.webp) no-repeat;
+  background-size: 100% 100%;
+}
+.font(){
+  width: 165/@r;
+  height: 165/@r;
+  position: absolute;
+  top: 35%;
+  left: 1%;
+}
+.line{
+  width: 480/@r;
+  height: 2/@r;
+  background: rgb(101, 101, 101);
+}
+.pubB(){
+  width: 25/@r;
+  height: 25/@r;
+  background: black;
+  position: absolute;
+  top: 91%;
+}
+.pubIcon(){
+  .p1{
+    .pubB();
+    left: 70%;
+  }
+  .p2{
+    .pubB();
+    left: 75%;
+  }
+  .p3{
+    .pubB();
+    left: 80%;
+  }
+  .p4{
+    .pubB();
+    left: 85%;
+  }
+  .p5{
+    .pubB();
+    left: 90%;
+  }
+}
+
+//Swiper插件
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}  
+
+.homePage{
+  // display: none;
+  .pubBg();
+  .resume{
+      .fr;
+      width: 260/@r;
+      height: 250/@r;
+      margin-top: 110/@r;
+      margin-right: 30/@r;
+  }
+  .photo1{
+    width: 280/@r;
+    height: 420/@r;
+    border-radius: 30%;
+    border: 3px solid rgb(156, 155, 155);
+    position: absolute;
+    background: rgba(255, 255, 255, 0.71);
+    top: 35%;
+    left: 28%;
+  }
+  .photo2{
+    width: 280/@r;
+    height: 420/@r;
+    border-radius: 30%;
+    border: 3px solid rgb(156, 155, 155);
+    position: absolute;
+    top: 35%;
+    left: 28%;
+  }
+  .info{
+    width: 600/@r;
+    .fl;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    p{
+      color: white;
+      font-family: fangzheng_cuyuanjt;
+      line-height: 65/@r;
+      font-size: 37/@r;
+    }
+  }
+}
+
+.infoPage{
+  // display: none;
+  .pubBg();
+  .jianFont{
+    .font();
+  }
+  .liFont{
+    .font();
+    top: 55%;
+  }
+  .content{
+    .pubBgThin();
+    .photo{
+      width: 260/@r;
+      height: 390/@r;
+      position: absolute;
+      top: 6%;
+      left: 18%;
+    }
+    .pub{
+      width: 100/@r;
+      height: 80/@r;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+    }
+    span{
+      font-size: 45/@r;
+      font-weight: 500;
+      font-family: fangzheng_cuyuanjt;
+      position: absolute;
+      top: 41%;
+      left: 28%;
+    }
+    .line{
+      position: absolute;
+      top: 49%;
+      left: 6%;
+    }
+    .info{
+      width: 550/@r;
+      .fr;
+      position: absolute;
+      top: 52%;
+      left: 6%;
+      p{
+        font-family: fangzheng_cuyuanjt;
+        line-height: 65/@r;
+        font-size: 37/@r;
+      }
+    }
+  }
+  .iconBlock{
+    .pubIcon();
+  }
+}
+
+.majorCoursePage{
+  // display: none;
+  .pubBg();
+  .jianFont{
+    .font();
+  }
+  .liFont{
+    .font();
+    top: 55%;
+  }
+  .content{
+    .pubBgThin();
+    .pub{
+      width: 100/@r;
+      height: 80/@r;
+      position: absolute;
+      top: 9%;
+      left: 10%;
+    }
+    span{
+      font-size: 45/@r;
+      font-weight: 500;
+      font-family: fangzheng_cuyuanjt;
+      position: absolute;
+      top: 10%;
+      left: 28%;
+    }
+    .line{
+      position: absolute;
+      top: 18%;
+      left: 6%;
+    }
+    .info{
+      width: 500/@r;
+      position: absolute;
+      top: 20%;
+      left: 6%;
+      p{
+        font-family: fangzheng_cuyuanjt;
+        line-height: 65/@r;
+        font-size: 37/@r;
+        margin-top: 15/@r;
+      }
+    }
+  }
+  .iconBlock{
+    .pubIcon();
+  }
+}
+
+.professionalPage{
+  // display: none;
+  .pubBg();
+  .jianFont{
+    .font();
+  }
+  .liFont{
+    .font();
+    top: 55%;
+  }
+  .content{
+    .pubBgThin();
+    .pub{
+      width: 100/@r;
+      height: 80/@r;
+      position: absolute;
+      top: 9%;
+      left: 10%;
+    }
+    span{
+      font-size: 45/@r;
+      font-weight: 500;
+      font-family: fangzheng_cuyuanjt;
+      position: absolute;
+      top: 10%;
+      left: 28%;
+    }
+    .line{
+      position: absolute;
+      top: 17%;
+      left: 6%;
+    }
+    .info{
+      width: 500/@r;
+      position: absolute;
+      top: 19%;
+      left: 6%;
+      p{
+        font-family: fangzheng_cuyuanjt;
+        line-height: 65/@r;
+        font-size: 37/@r;
+        margin-top: 15/@r;
+      }
+    }
+  }
+  .iconBlock{
+    .pubIcon();
+  }
+}
+
+.projectExperiencePage{
+  // display: none;
+  .pubBg();
+  .jianFont{
+    .font();
+  }
+  .liFont{
+    .font();
+    top: 55%;
+  }
+  .content{
+    .pubBgThin();
+    .pub{
+      width: 100/@r;
+      height: 80/@r;
+      position: absolute;
+      top: 9%;
+      left: 10%;
+    }
+    span{
+      font-size: 45/@r;
+      font-weight: 500;
+      font-family: fangzheng_cuyuanjt;
+      position: absolute;
+      top: 10%;
+      left: 28%;
+    }
+    .line{
+      position: absolute;
+      top: 16%;
+      left: 6%;
+    }
+    .info{
+      width: 500/@r;
+      position: absolute;
+      top: 19%;
+      left: 6%;
+      .project1{
+        width: 500/@r;
+        height: 460/@r;
+        .title{
+          width: 400/@r;
+          height: 100/@r;
+          background: url(../img/input.webp) no-repeat;
+          background-size: 100%,100%;
+          position: relative;
+          span{
+            font-size: 32/@r;
+            position: absolute;
+            left: 15%;
+          }
+        }
+        .projectContent{
+          font-family: fangzheng_cuyuanjt;
+          line-height: 65/@r;
+          font-size: 37/@r;
+          margin-left: -20/@r;
+          text-indent: 40/@r;
+        }
+      }
+      .project2{
+        width: 500/@r;
+        .title{
+          width: 400/@r;
+          height: 100/@r;
+          background: url(../img/input.webp) no-repeat;
+          background-size: 100%,100%;
+          position: relative;
+          span{
+            font-size: 32/@r;
+            position: absolute;
+            left: 15%;
+          }
+        }
+        .projectContent{
+          font-family: fangzheng_cuyuanjt;
+          line-height: 65/@r;
+          font-size: 37/@r;
+          margin-left: -20/@r;
+          text-indent: 40/@r;
+        }
+      }
+    }
+  }
+  .iconBlock{
+    .pubIcon();
+  }
+}
+
+.worksShowPage{
+  // display: none;
+  .pubBg();
+  .jianFont{
+    .font();
+  }
+  .liFont{
+    .font();
+    top: 55%;
+  }
+  .content{
+    .pubBgThin();
+    .pub{
+      width: 100/@r;
+      height: 80/@r;
+      position: absolute;
+      top: 9%;
+      left: 10%;
+    }
+    span{
+      font-size: 45/@r;
+      font-weight: 500;
+      font-family: fangzheng_cuyuanjt;
+      position: absolute;
+      top: 10%;
+      left: 28%;
+    }
+    .line{
+      position: absolute;
+      top: 16%;
+      left: 6%;
+    }
+    .info{
+      width: 500/@r;
+      position: absolute;
+      top: 19%;
+      left: 6%;
+      .title{
+        width: 400/@r;
+        height: 100/@r;
+        background: url(../img/input.webp) no-repeat;
+        background-size: 100%,100%;
+        position: relative;
+        span{
+          font-size: 32/@r;
+          position: absolute;
+          left: 15%;
+        }
+      }
+      div{
+        margin-top: 15/@r;
+        img{
+          width: 100%;
+          height: 345/@r;
+          &.img2{
+            margin-top: 20/@r;
+          }
+        }
+      }
+    }
+  }
+  .iconBlock{
+    .pubIcon();
+  }
+}
+
+.evaluationPage{
+  // display: none;
+  .pubBg();
+  .jianFont{
+    .font();
+  }
+  .liFont{
+    .font();
+    top: 55%;
+  }
+  .content{
+    .pubBgThin();
+    .pub{
+      width: 100/@r;
+      height: 80/@r;
+      position: absolute;
+      top: 9%;
+      left: 10%;
+    }
+    span{
+      font-size: 45/@r;
+      font-weight: 500;
+      font-family: fangzheng_cuyuanjt;
+      position: absolute;
+      top: 10%;
+      left: 28%;
+    }
+    .line{
+      position: absolute;
+      top: 16.5%;
+      left: 6%;
+    }
+    .info{
+      width: 500/@r;
+      position: absolute;
+      top: 18%;
+      left: 6%;
+      p{
+        font-family: fangzheng_cuyuanjt;
+        line-height: 65/@r;
+        font-size: 37/@r;
+        margin-top: 15/@r;
+      }
+    }
+  }
+  .iconBlock{
+    .pubIcon();
+  }
+}
+
+.overPage{
+  // display: none;
+  .pubBg();
+  .bg{
+    width: 100%;
+    height: 300/@r;
+    position: absolute;
+    top: 35%;
+    background: rgba(255, 255, 255, 0.71);
+  }
+  .info{
+    width: 100%;
+    height: 300/@r;
+    position: absolute;
+    top: 35%;
+    p{
+      font-family: fangzheng_cuyuanjt;
+      font-size: 65/@r;
+      font-weight: bold;
+      text-align: center;
+      line-height: 300/@r;
+    }
+  }
+}
+
+.music{
+  z-index: 1000;
+  width: 80/@r;
+  height: 80/@r;
+  position: absolute;
+  top: 3%;
+  left: 85%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+.rotate{
+  -webkit-animation:circle 1s infinite linear;
+  -moz-animation:circle 1s infinite linear;
+  -o-animation:circle 1s infinite linear;
+  animation:circle 1s infinite linear;
+}
+@-webkit-keyframes circle{
+  0%{ 
+    transform:rotate(0deg); 
+  }
+  100%{
+    transform:rotate(-360deg);
+  }
+}
