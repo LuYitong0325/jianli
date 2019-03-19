@@ -386,7 +386,7 @@ body {
   top: 91%;
   left: 90%;
 }
-.workExperiencePage {
+.projectExperiencePage {
   width: 100%;
   height: 100%;
   background: url(../img/bg.webp) no-repeat center center;
@@ -394,14 +394,14 @@ body {
   overflow: hidden;
   position: relative;
 }
-.workExperiencePage .jianFont {
+.projectExperiencePage .jianFont {
   width: 2.2rem;
   height: 2.2rem;
   position: absolute;
   top: 35%;
   left: 1%;
 }
-.workExperiencePage .liFont {
+.projectExperiencePage .liFont {
   width: 2.2rem;
   height: 2.2rem;
   position: absolute;
@@ -409,7 +409,7 @@ body {
   left: 1%;
   top: 55%;
 }
-.workExperiencePage .content {
+.projectExperiencePage .content {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -417,14 +417,14 @@ body {
   background: url(../img/bgThin.webp) no-repeat;
   background-size: 100% 100%;
 }
-.workExperiencePage .content .pub {
+.projectExperiencePage .content .pub {
   width: 1.33333333rem;
   height: 1.06666667rem;
   position: absolute;
   top: 9%;
   left: 10%;
 }
-.workExperiencePage .content span {
+.projectExperiencePage .content span {
   font-size: 0.6rem;
   font-weight: 500;
   font-family: fangzheng_cuyuanjt;
@@ -432,63 +432,63 @@ body {
   top: 10%;
   left: 28%;
 }
-.workExperiencePage .content .line {
+.projectExperiencePage .content .line {
   position: absolute;
   top: 16%;
   left: 6%;
 }
-.workExperiencePage .content .info {
+.projectExperiencePage .content .info {
   width: 6.66666667rem;
   position: absolute;
   top: 19%;
   left: 6%;
 }
-.workExperiencePage .content .info .work1 {
+.projectExperiencePage .content .info .project1 {
   width: 6.66666667rem;
-  height: 5.6rem;
+  height: 6.13333333rem;
 }
-.workExperiencePage .content .info .work1 .title {
+.projectExperiencePage .content .info .project1 .title {
   width: 5.33333333rem;
   height: 1.33333333rem;
   background: url(../img/input.webp) no-repeat;
   background-size: 100%,100%;
   position: relative;
 }
-.workExperiencePage .content .info .work1 .title span {
+.projectExperiencePage .content .info .project1 .title span {
   font-size: 0.42666667rem;
   position: absolute;
   left: 15%;
 }
-.workExperiencePage .content .info .work1 .workContent {
+.projectExperiencePage .content .info .project1 .projectContent {
   font-family: fangzheng_cuyuanjt;
   line-height: 0.86666667rem;
   font-size: 0.49333333rem;
   margin-left: -0.26666667rem;
   text-indent: 0.53333333rem;
 }
-.workExperiencePage .content .info .work2 {
+.projectExperiencePage .content .info .project2 {
   width: 6.66666667rem;
 }
-.workExperiencePage .content .info .work2 .title {
+.projectExperiencePage .content .info .project2 .title {
   width: 5.33333333rem;
   height: 1.33333333rem;
   background: url(../img/input.webp) no-repeat;
   background-size: 100%,100%;
   position: relative;
 }
-.workExperiencePage .content .info .work2 .title span {
+.projectExperiencePage .content .info .project2 .title span {
   font-size: 0.42666667rem;
   position: absolute;
   left: 15%;
 }
-.workExperiencePage .content .info .work2 .workContent {
+.projectExperiencePage .content .info .project2 .projectContent {
   font-family: fangzheng_cuyuanjt;
   line-height: 0.86666667rem;
   font-size: 0.49333333rem;
   margin-left: -0.26666667rem;
   text-indent: 0.53333333rem;
 }
-.workExperiencePage .iconBlock .p1 {
+.projectExperiencePage .iconBlock .p1 {
   width: 0.33333333rem;
   height: 0.33333333rem;
   background: black;
@@ -496,7 +496,7 @@ body {
   top: 91%;
   left: 70%;
 }
-.workExperiencePage .iconBlock .p2 {
+.projectExperiencePage .iconBlock .p2 {
   width: 0.33333333rem;
   height: 0.33333333rem;
   background: black;
@@ -504,7 +504,7 @@ body {
   top: 91%;
   left: 75%;
 }
-.workExperiencePage .iconBlock .p3 {
+.projectExperiencePage .iconBlock .p3 {
   width: 0.33333333rem;
   height: 0.33333333rem;
   background: black;
@@ -512,7 +512,7 @@ body {
   top: 91%;
   left: 80%;
 }
-.workExperiencePage .iconBlock .p4 {
+.projectExperiencePage .iconBlock .p4 {
   width: 0.33333333rem;
   height: 0.33333333rem;
   background: black;
@@ -520,7 +520,126 @@ body {
   top: 91%;
   left: 85%;
 }
-.workExperiencePage .iconBlock .p5 {
+.projectExperiencePage .iconBlock .p5 {
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background: black;
+  position: absolute;
+  top: 91%;
+  left: 90%;
+}
+.worksShowPage {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.webp) no-repeat center center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  position: relative;
+}
+.worksShowPage .jianFont {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  top: 35%;
+  left: 1%;
+}
+.worksShowPage .liFont {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  top: 55%;
+}
+.worksShowPage .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 24%;
+  background: url(../img/bgThin.webp) no-repeat;
+  background-size: 100% 100%;
+}
+.worksShowPage .content .pub {
+  width: 1.33333333rem;
+  height: 1.06666667rem;
+  position: absolute;
+  top: 9%;
+  left: 10%;
+}
+.worksShowPage .content span {
+  font-size: 0.6rem;
+  font-weight: 500;
+  font-family: fangzheng_cuyuanjt;
+  position: absolute;
+  top: 10%;
+  left: 28%;
+}
+.worksShowPage .content .line {
+  position: absolute;
+  top: 16%;
+  left: 6%;
+}
+.worksShowPage .content .info {
+  width: 6.66666667rem;
+  position: absolute;
+  top: 19%;
+  left: 6%;
+}
+.worksShowPage .content .info .title {
+  width: 5.33333333rem;
+  height: 1.33333333rem;
+  background: url(../img/input.webp) no-repeat;
+  background-size: 100%,100%;
+  position: relative;
+}
+.worksShowPage .content .info .title span {
+  font-size: 0.42666667rem;
+  position: absolute;
+  left: 15%;
+}
+.worksShowPage .content .info div {
+  margin-top: 0.2rem;
+}
+.worksShowPage .content .info div img {
+  width: 100%;
+  height: 4.6rem;
+}
+.worksShowPage .content .info div img.img2 {
+  margin-top: 0.26666667rem;
+}
+.worksShowPage .iconBlock .p1 {
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background: black;
+  position: absolute;
+  top: 91%;
+  left: 70%;
+}
+.worksShowPage .iconBlock .p2 {
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background: black;
+  position: absolute;
+  top: 91%;
+  left: 75%;
+}
+.worksShowPage .iconBlock .p3 {
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background: black;
+  position: absolute;
+  top: 91%;
+  left: 80%;
+}
+.worksShowPage .iconBlock .p4 {
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background: black;
+  position: absolute;
+  top: 91%;
+  left: 85%;
+}
+.worksShowPage .iconBlock .p5 {
   width: 0.33333333rem;
   height: 0.33333333rem;
   background: black;
